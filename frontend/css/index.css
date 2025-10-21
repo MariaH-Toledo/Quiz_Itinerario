@@ -1,0 +1,28 @@
+@import url(style.css);
+
+.body-index {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cor-roxo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.main-index {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ 
+.title-index {
+    font-size: 4rem;
+    color: var(--cor-cinza);
+    text-align: center;
+    font-weight: 600;
+}
+
