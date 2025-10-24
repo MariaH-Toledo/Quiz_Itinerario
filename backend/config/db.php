@@ -6,9 +6,7 @@ $db = "quiz";
 
 $conn = new mysqli($host, $user, $password, $db);
 
-if ($conn->connect_error) {
-    die("Erro na conexão: " . $conn->connect_error);
-} else {
-    echo "Conectado!";
+if (!$conn) {
+    die("Falha na conexão: " . mysqli_connect_error());
 }
 ?>
