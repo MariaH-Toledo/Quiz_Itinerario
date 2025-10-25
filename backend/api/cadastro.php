@@ -23,8 +23,8 @@ if (isset($_POST['cadastrar_usuario'])) {
 
     if (mysqli_query($conn, $sql)) {
         echo "<script>
-                alert('Usuário cadastrado com sucesso!');
-                window.location.href = '../../frontend/cadastro.html';
+                alert('Usuário cadastrado com sucesso! Agora faça seu login.');
+                window.location.href = '../../frontend/login.html';
               </script>";
     } else {
         echo "<script>
