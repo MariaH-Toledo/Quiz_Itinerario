@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - GnarlyTest</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h2>Entrar na conta</h2>
+        <form method="POST" action="../backend/api/login.php">
+            <input type="text" name="nome_usuario" id="nome_usuario" placeholder="Nome de usuário" required>
+            <input type="password" name="senha" id="senha" placeholder="Senha" required>
+            <button type="submit" name="login_usuario">Entrar</button>
+        </form>
+        <p>Não tem conta? <a href="cadastro.html">Cadastre-se</a></p>
+    </main>
+</body>
+</html>
